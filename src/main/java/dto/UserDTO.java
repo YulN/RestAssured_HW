@@ -10,7 +10,6 @@ import lombok.experimental.Accessors;
 @Accessors(chain = true)
 @JsonInclude(JsonInclude.Include.NON_DEFAULT)
 public class UserDTO {
-    private Long id;
     private String userName;
     private String firstName;
     private String lastName;
