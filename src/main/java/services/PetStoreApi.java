@@ -4,7 +4,6 @@ import dto.UserDTO;
 import io.restassured.http.ContentType;
 import io.restassured.response.ValidatableResponse;
 import static io.restassured.RestAssured.given;
-import static io.restassured.RestAssured.when;
 
 public class PetStoreApi {
     public ValidatableResponse createUser(UserDTO user) {
